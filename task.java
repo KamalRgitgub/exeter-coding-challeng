@@ -6,8 +6,6 @@ public class task{
 		long start=System.currentTimeMillis();
 		File f=new File("C:/Users/sound/Downloads/TranslateWords Challenge (1)/t8.shakespeare.txt");
 		File dic=new File("C:/Users/sound/Downloads/TranslateWords Challenge (1)/french_dictionary.csv");
-		//Scanner s=new Scanner(dic);
-		//Scanner file1=new Scanner(f);
 		File trans=new File("C:/Users/sound/Downloads/Myproject/t8.shakespeare.translated.txt");
 		PrintWriter p=new PrintWriter(trans);
 		File freq=new File("C:/Users/sound/Downloads/Myproject/frequency.csv");
